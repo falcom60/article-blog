@@ -21,3 +21,8 @@ article_remove:
      controller: App\Controller\ArticleController::remove
      requirements:
        id: '\d+'
+
+app_login:
+     path: /login
+     controller: App\Controller\SecurityController::login
+
